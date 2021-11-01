@@ -12,6 +12,7 @@ const DonutChart = () => {
         fill: {
             type: 'gradient',
         },
+        colors: ['#ffa305', '#25d9f5', '#f52525', '#1205ff', '#0dff05']
     }
     return (
         <Chart

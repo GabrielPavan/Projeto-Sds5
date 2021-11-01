@@ -5,8 +5,10 @@ const BarChart = () => {
         plotOptions: {
             bar: {
                 horizontal: true,
+                distributed: true,
             }
         },
+        colors: ['#ffa305', '#25d9f5', '#f52525', '#1205ff', '#0dff05']
     };
     
     const mockData = {
