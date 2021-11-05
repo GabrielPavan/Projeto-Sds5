@@ -4,9 +4,12 @@ const BarChart = () => {
     const options = {
         plotOptions: {
             bar: {
-                horizontal: true,
+                horizontal: false,
                 distributed: true,
             }
+        },
+        fill: {
+            type: 'gradient',
         },
         colors: ['#ffa305', '#25d9f5', '#f52525', '#1205ff', '#0dff05']
     };
@@ -27,7 +30,7 @@ const BarChart = () => {
             options= {{ ...options, xaxis: mockData.labels}}
             series={mockData.series}
             type="bar"
-            height="240" 
+            height="300" 
       /> 
     );
 }
