@@ -19,7 +19,7 @@ export type SalePage = {
     numberOfElements?: number;
     empty?: boolean;
 }
-export type SaleSum = {  
+export type SaleSum = { 
     sellername: string;
     sum: number;
 }
